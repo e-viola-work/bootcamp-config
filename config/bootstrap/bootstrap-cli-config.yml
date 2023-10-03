@@ -12,7 +12,7 @@ bootstrap:
             - state
 
     idp-cdf-mappings:
-    # Support multiple CDF Projects, like dev/test/prod in one config
+    # Support multiple CDF Projects, like dev/test/prod in one config.
         - cdf-project: cdf-bootcamp-14-test
           mappings:
               - cdf-group: cdf:root
