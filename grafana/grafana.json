@@ -44,11 +44,16 @@
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 0.6
+              },
+              {
                 "color": "green",
-                "value": 0.65
+                "value": 0.85
               }
             ]
-          }
+          },
+          "unit": "percentunit"
         },
         "overrides": []
       },
@@ -443,11 +448,16 @@
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 0.6
+              },
+              {
                 "color": "green",
-                "value": 0.65
+                "value": 0.85
               }
             ]
-          }
+          },
+          "unit": "percentunit"
         },
         "overrides": []
       },
@@ -1004,7 +1014,7 @@
       "description": "",
       "fieldConfig": {
         "defaults": {
-          "color": {
+          "color": {#EAB839
             "mode": "thresholds"
           },
           "mappings": [],
@@ -1018,11 +1028,16 @@
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 0.6
+              },
+              {
                 "color": "green",
-                "value": 0.65
+                "value": 0.85
               }
             ]
-          }
+          },
+          "unit": "percentunit"
         },
         "overrides": []
       },
@@ -1618,11 +1633,16 @@
                 "value": null
               },
               {
+                "color": "#EAB839",
+                "value": 0.6
+              },
+              {
                 "color": "green",
-                "value": 0.65
+                "value": 0.85
               }
             ]
-          }
+          },
+          "unit": "percentunit"
         },
         "overrides": []
       },
@@ -1992,7 +2012,7 @@
           }
         },
         {
-          "aggregation": "none",
+          "aggregation": "stepInterpolation",
           "assetQuery": {
             "includeSubTimeseries": true,
             "includeSubtrees": false,
@@ -2227,6 +2247,6 @@
   "timezone": "",
   "title": "OEE",
   "uid": "e8f968b5-43b6-4bf3-a11f-d8661b7411a5",
-  "version": 4,
+  "version": 5,
   "weekStart": ""
 }
