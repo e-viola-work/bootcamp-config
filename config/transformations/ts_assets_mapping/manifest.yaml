@@ -10,7 +10,7 @@ ignoreNullFields: true
 shared: true
 action: update
 schedule:
-    interval: 2/5 * * * *
+    interval: 3/5 * * * *
     isPaused: false
 dataSetExternalId: uc:001:oee:ds
 authentication:
