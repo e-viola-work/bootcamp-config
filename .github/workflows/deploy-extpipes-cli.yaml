@@ -5,6 +5,9 @@ on:
     push:
         branches:
             - main
+        path:
+            - .github/workflows/deploy-extpipes-cli.yaml
+            - config/extpipes/**
 
 jobs:
     deploy_extpipes:

@@ -8,6 +8,9 @@ name: Deploy transformations
 on:
     push:
         branches: [main]
+        path:
+            - .github/workflows/deploy-transformations.yml
+            - config/transformations/**
 
 jobs:
     deploy:
